@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e44d26;
+}
+
+header {
+    background-color: #a7c5d2;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+p{
+    color: black;
+}
+
+header h1 {
+    margin: 0;
+    color: #d20ab4;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(246, 249, 247);
+    box-shadow: 0px 0px 10px rgba(1, 0, 0, 0.1);
+    transition: ease-in-out;
+}
+
+.product-details {
+    margin-bottom: 2rem;
+}
+
+.description {
+    color: #555;
+}
+
+.price {
+    font-weight: bold;
+    color: #e44d26; 
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cta-section {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.cta-button.secondary {
+    background-color: #3498db;
+}
+
+.cta-button:hover, .cta-button.secondary:hover {
+    opacity: 0.8;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #7394a8;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 0.5rem;
+    }
+}
